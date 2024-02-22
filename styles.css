@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://i.pinimg.com/originals/52/91/f5/5291f56897d748b1ca0a10c90023588d.gif'); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover; /* This ensures that the background image covers the entire viewport */
+    background-position: center; /* Centers the background image */
+}
+
+#coin {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background-image: url('coin.png'); /* Replace 'coin.png' with your coin image */
+    background-size: cover;
+}
+
+#flipButton {
+    font-size: 24px; /* Make the font size larger */
+    padding: 20px 40px; /* Increase padding to make the button larger */
+    margin-top: 20px; /* Add margin to separate it from other elements */
+}
+
+#outcome {
+    font-size: 100px; /* Make the font size larger */
+    margin-top: 20px; /* Add margin to separate it from other elements */
+}
+
+@keyframes flipCoin {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.flipping {
+    animation: flipCoin 1s ease-in-out forwards;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.blinking {
+    font-size: 100px;
+    position: absolute;
+    color: inherit;
+    animation: blink 1s infinite;
+}
+
+#stats {
+    margin-top: 20px; /* Add margin to separate it from other elements */
+    font-size: 24px;
+}
