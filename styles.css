@@ -70,10 +70,10 @@ body {
 .logo {
     width: 100%;
     height: 100%;
-    background-image: url('DALL·E\ 2024-03-02\ 20.08.57\ -\ Design\ a\ new\ PNG\ of\ a\ golden\ coin\ that\ embodies\ an\ old-school\,\ vintage\ aesthetic\,\ reminiscent\ of\ classic\ arcade\ or\ video\ games.\ The\ coin\ should\ have\ a.webp');
+    background-image: url('DALL·E\ 2024-03-02\ 20.21.45\ -\ Design\ a\ simple\,\ classic\ golden\ coin\ reminiscent\ of\ old-school\ video\ games\,\ with\ a\ pixelated\ appearance\ to\ match\ the\ aesthetic\ of\ retro\ gaming.\ The\ co.webp');
     background-size: contain;
     background-repeat: no-repeat;
-    transition: transform 0.3s;
+    transition: transform 10s;
 }
 /* .circle {
     width: 20vw;
